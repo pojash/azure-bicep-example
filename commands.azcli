@@ -1,0 +1,4 @@
+#deploy an ARM template
+az deployment group create \
+--resource-group rg1 \ 
+//--template-file Main.json
